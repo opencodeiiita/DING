@@ -1,2 +1,3 @@
 [console_scripts]
 ding = src.cli:main
+

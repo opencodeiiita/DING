@@ -1,2 +1,2 @@
 def main():
-    print("Ding Dong, who's there \nCash\n Cash who?\n I prefer peanuts\n")
+    print("Ding Dong, who's there \nSewh\n Sew who?\n SUIIIIIIs\n")
