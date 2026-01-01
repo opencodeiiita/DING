@@ -37,9 +37,7 @@ def parse_args():
 
 
 def main():
-    print("Ding!")
-    print("Welcome to DING — where versioning happens quietly.")
-    print("Go build something awesome !!!")
+    print("Ding Dong, who's there?\nOrange\nOrange you glad I didn’t say IRS?")
 
 
 if __name__ == "__main__":
