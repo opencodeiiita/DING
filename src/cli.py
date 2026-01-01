@@ -35,12 +35,10 @@ def parse_args():
 
     return parser.parse_args()
 
-
 def main():
-    print("Ding!")
-    print("Welcome to DING — where versioning happens quietly.")
-    print("Go build something awesome !!!")
-
+    print("Ding Dong, who's there")
+    print("The IRS")
+    print("Oh Shit")
 
 if __name__ == "__main__":
     main()
