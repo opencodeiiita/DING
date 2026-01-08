@@ -49,7 +49,10 @@ def parse_args():
 
 
 def main():
-    print("Ding Dong, who's there?\nThe IRS\nOh Shit\n")
+    print("Ding Dong, who's there?\n"
+          "— Open Source\n"
+          "Open Source who?\n"
+          "Free to use, pay with your time.\n")
     args = parse_args()
     args.func(args)
 
