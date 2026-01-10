@@ -2,3 +2,5 @@ build/
 ding.egg-info/
 __pycache__/
 .venv/
+Contributors/
+__pycache__/
