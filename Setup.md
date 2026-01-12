@@ -4,42 +4,54 @@
 
 ## To use Ding and enter Agartha:
 You should have:
-- Python 3.14+
-- pip
-- Git (to clone the repo)
+- **Python 3.14+** installed
+- **pip** (Python package manager)
+- **Git** (for cloning the repository)
 
-## Setup
+## Installation
+
+### 1. Clone the Repository
 ```bash
-git clone https://github.com/opencodeiiita/DING.git <br>
+git clone https://github.com/opencodeiiita/DING.git
 cd DING
 ```
 
-### To Setup a Virtual Environment
+### 2. Set Up a Virtual Environment
+A virtual environment keeps your dependencies isolated and prevents conflicts.
 ```bash
 python -m venv venv
 ```
 
-#### Windows
-```shell
+### 3. Activate the Environment & Install Ding
+
+**Windows:**
+```powershell
 venv\Scripts\activate
 pip install -e .
 ```
 
-#### macOS/Linux
-```shell
+**macOS/Linux:**
+```bash
 source venv/bin/activate
 pip install -e .
 ```
 
-To run it again anytime after the initial setup, just activate the venv
+Once activated, you'll see `(venv)` prefixed in your terminal prompt.
 
-## Confirmation
-If at the end you see
-Successfully installed ding-1.0
+## Verify Installation
 
-run `ding -h` to see more instructions
+After installation, you should see:
 ```bash
- > ding -h
+Successfully installed ding-1.0
+```
+
+Test that Ding is working by running:
+```bash
+ding -h
+```
+
+**Expected output:**
+```bash
 usage: ding [-h] {init,hash-objects,cat-file} ...
 
 positional arguments:
@@ -52,6 +64,36 @@ options:
   -h, --help            show this help message and exit
 ```
 
+## Usage Tips
+
+**Reactivating the environment:** The next time you want to use Ding, simply activate the virtual environment:
+- **Windows:** `venv\Scripts\activate`
+- **macOS/Linux:** `source venv/bin/activate`
+
+
 This means you are good to go
 
-__All done in 67 seconds ✧｡٩(ˊᗜˋ )و✧*｡.__
+## Troubleshooting
+
+### `ding: command not found`
+This usually means either:
+1. The virtual environment isn't activated
+2. The installation didn't complete properly
+
+**Solution:**
+```bash
+# Make sure you're in the DING directory
+cd DING
+
+# Activate the virtual environment
+source venv/bin/activate  # macOS/Linux
+# or
+venv\Scripts\activate     # Windows
+
+# Reinstall
+pip install -e .
+```
+
+---
+
+__All done in 71 seconds ✧｡٩(ˊᗜˋ )و✧*｡.__
