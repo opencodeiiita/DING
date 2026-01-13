@@ -1,6 +1,7 @@
+import zstandard as zstd
 import os
 import hashlib
-from compression import zstd
+#from compression import zstd
 import sys
 
 
