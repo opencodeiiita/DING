@@ -86,3 +86,8 @@ _NONE, build from scratch just using std_
     ├── diff.py
     └── remote.py
 ```
+
+---
+
+## Setup
+Check Out the SetUp Guide [here](./Setup.md)
